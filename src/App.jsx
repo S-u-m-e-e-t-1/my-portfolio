@@ -43,7 +43,7 @@ const Portfolio = () => {
   const downloadResume = () => {
     // Create a temporary link to download the resume
     const link = document.createElement('a');
-    link.href = 'src/assets/resume.pdf'; // In a real implementation, this would be the actual resume file URL
+    link.href = 'resume.pdf'; // In a real implementation, this would be the actual resume file URL
     link.download = 'Sumeet_Panigrahy_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -107,7 +107,7 @@ const Portfolio = () => {
             <div className="relative inline-block">
               <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-purple-400 shadow-2xl">
                 <img
-                  src="src/assets/Picture1.png"
+                  src="Picture1.png"
                   alt="Sumeet Panigrahy"
                   className="w-full h-full object-cover"
                 />
